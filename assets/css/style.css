@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #003366;
+    padding: 10px 20px;
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    background-image: url('../images/hero-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+.hero h1 {
+    font-size: 48px;
+}
+.about, .technology, .news, .contact {
+    padding: 50px 20px;
+}
+.tech-cards {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    flex: 1;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #003366;
+    color: white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input, form textarea {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+form button {
+    width: 150px;
+    padding: 10px;
+    background-color: #FF6B00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
